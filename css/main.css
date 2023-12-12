@@ -1,0 +1,176 @@
+.mashina__sivitafor{
+    display: flex;
+}
+
+.asfalt{
+    width: 1800px;
+    height: 20px;
+    background-color:black;
+}
+
+.mashina{
+    margin-top: 415px;
+    position: relative;
+    animation-name: mashina;
+    animation-duration: 10s;
+}
+
+@keyframes mashina{
+    0%{
+        margin-left:0;
+    }
+
+    10%{
+        margin-left: 0;
+    }
+
+    20%{
+        margin-left: 0;
+    }
+
+    30%{
+        margin-left: 0;
+    }
+
+    40%{
+        margin-left: 0;
+    }
+
+    45%{
+        margin-left: 0;
+    }
+
+
+
+    100%{
+        margin-left: 1400px;
+    }
+}
+
+.svetlar{
+    width: 60px;
+    height: 150px;
+    background-color: rgb(57, 49, 39);
+    margin-left: 1000px;
+    padding-top: 10px;
+    margin-top: -470px;
+}
+
+.qizil{
+    width: 25px;
+    height: 25px;
+    background-color:rgb(238, 149, 149);
+    margin: 0 auto;
+    border-radius: 100%;
+    position: relative;
+    color: aliceblue;
+    animation-name: qizil;
+    animation-duration: 2s;
+}
+
+@keyframes qizil{
+    0%{
+    background-color:rgb(238, 149, 149);
+    }
+    
+    50%{
+        background-color:red;
+    }
+
+    100%{
+        background-color:red;
+
+    }
+}
+
+.sariq{
+    width: 25px;
+    height: 25px;
+    background-color:rgb(212, 212, 147);
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-top: 20px;
+    position: relative;
+    color: aliceblue;
+    animation-name: sariq;
+    animation-duration: 4s;
+}
+
+@keyframes sariq{
+    0%{
+        background-color:rgb(212, 212, 147);
+    }
+
+    10%{
+        background-color:rgb(212, 212, 147);
+    }
+
+    20%{
+        background-color:rgb(212, 212, 147);
+    }
+
+    30%{
+        background-color:rgb(212, 212, 147);
+    }
+
+    40%{
+        background-coclor:rgb(212, 212, 147);
+    }
+
+    50%{
+        background-color:rgb(212, 212, 147);
+    }
+
+    100%{
+        background-color: yellow;
+    }
+}
+
+.yashil{
+    width: 25px;
+    height: 25px;
+    background-color:rgb(152, 228, 152);
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-top: 25px;
+    position: relative;
+    color: aliceblue;
+    animation-name: yashil;
+    animation-duration: 10s;
+}
+
+@keyframes yashil{
+    0%{
+        background-color:rgb(152, 228, 152);
+    }
+
+    10%{
+        background-color:rgb(152, 228, 152);
+    }
+
+    20%{
+        background-color:rgb(152, 228, 152);
+    }
+
+    30%{
+        background-color:rgb(152, 228, 152);
+    }
+
+    40%{
+        background-color:rgb(152, 228, 152);
+    }
+
+    50%{
+        background-color: green;
+    }
+    100%{
+        background-color: green;
+    }
+}
+
+.tayoq{
+    width: 20px;
+    height: 300px;
+    background-color: rgb(57, 49, 39);
+    margin-left: 1020px;
+}
